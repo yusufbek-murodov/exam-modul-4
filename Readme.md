@@ -10,7 +10,7 @@
 ## Javoblar:
 ### 5-savol
 Runnable bu interface, Runnable run() methodini ishlatish orqali ichidagi kodni ishlatishimiz mumkin.
-Runnable interface odatda **Thread** yaratish uchun ishlatiladi.
+Runnable interface odatda **Thread** yaratish uchun ishlatiladi va Runnable void type qaytaradi.
    
-Callable bu ham interface o'ziga generic type qabul qiladi va Callable interfaceni Exeption qaytarish uchun va Exceptionlarni boshqarish uchun ishlatiladi.
+Callable bu ham interface o'ziga generic type qabul qiladi va Callable call methodini chaqirsak return type qaytaradi.
 
