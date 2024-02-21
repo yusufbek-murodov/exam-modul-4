@@ -8,4 +8,9 @@
 5. Runnable bilan Callable farqlarini ayting?
 
 ## Javoblar:
-5. 
+### 5-savol
+Runnable bu interface, Runnable run() methodini ishlatish orqali ichidagi kodni ishlatishimiz mumkin.
+Runnable interface odatda **Thread** yaratish uchun ishlatiladi.
+   
+Callable bu ham interface o'ziga generic type qabul qiladi va Callable interfaceni Exeption qaytarish uchun va Exceptionlarni boshqarish uchun ishlatiladi.
+
